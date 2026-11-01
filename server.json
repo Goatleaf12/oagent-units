@@ -1,0 +1,1 @@
+{"$schema":"https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json","description":"Read OAGENT Units collection state, grind proof-of-work mint proofs, and build unsigned mint calldata on BNB Smart Chain. Never holds keys, never signs.","name":"io.github.oagent/oagent-units","version":"1.0.0"}

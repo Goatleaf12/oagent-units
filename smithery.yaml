@@ -1,0 +1,13 @@
+# Smithery configuration for the OAGENT Units MCP server.
+# Stdio server: dependency-free Python 3 (standard library only).
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+  commandFunction: |-
+    (config) => ({
+      command: 'python3',
+      args: ['mcp/oagent_mcp.py'],
+      env: {}
+    })
